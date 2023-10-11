@@ -1,0 +1,15 @@
+﻿#include @"myForm2\myForm2.ph"
+
+#requires @"myForm2\myForm2.frm"
+% privately used packages
+#include @"pfc\stream\stream.ph"
+#include @"pfc\vpi\vpi.ph"
+#include @"pfc\resourceIdentifiers.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"myForm2\fn.pro"
+#include @"myForm2\myForm2.pro"
