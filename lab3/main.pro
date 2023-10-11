@@ -47,8 +47,8 @@ clauses
     sister(X, Y) :- parents(Z, X), parents(Z, Y), woman(X), not(X = Y).
     grandmother(X, Y) :- parents(Z, Y), parents(X, Z), woman(X).
     grandfather(X, Y) :- parents(Z, Y), parents(X, Z), man(X).
-    aunt(X, Y) :- parents(Z, Y), sister(X, Z), woman(X).
-    uncle(X, Y) :- parents(Z, Y), brother(X, Z), man(X).
+    aunt(X, Y) :- parents(Z, Y), sister(X, Z).
+    uncle(X, Y) :- parents(Z, Y), brother(X, Z).
 
 clauses
     run() :- console::init(), fail().
