@@ -1,0 +1,13 @@
+﻿#include @"myForm1\myForm1.ph"
+
+#requires @"myForm1\myForm1.frm"
+% privately used packages
+#include @"pfc\vpi\vpi.ph"
+#include @"pfc\resourceIdentifiers.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"myForm1\myForm1.pro"
