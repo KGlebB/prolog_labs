@@ -76,7 +76,7 @@ clauses
         NewList = stdio::read(),
         merge_lists(Z, NewList, MergedList),
         stdio::write("Список после объединения:\n"),
-            write_a_list(MergedList).
+        write_a_list(MergedList).
 
 end implement main
 
